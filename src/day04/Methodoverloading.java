@@ -10,6 +10,7 @@ public class Methodoverloading {
        add(134,87,120);
        Methodoverloading m=new Methodoverloading();
        m.add(1234.873f, 23748.08633f, 136784.68733f);
+       add(6766.655,898977.56556,5555.87866);
 	}
 	
 	public static void add(int a,int b)
@@ -37,6 +38,13 @@ public class Methodoverloading {
 	public void add(float a,float b,float c)
 	{
 		System.out.println(a+b+c);
+	}
+	
+	public static void add(double a,double b,double c)
+	
+	{
+		double x=(a+b+c);
+		System.out.println("the addition of three numbers are " x);
 	}
 }
 
