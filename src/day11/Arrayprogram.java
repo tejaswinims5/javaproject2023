@@ -35,6 +35,8 @@ public class Arrayprogram {
 		{
 			System.out.println(x[s]);
 		}
+		y.close();
 	}
+	
 
 }
