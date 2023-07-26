@@ -20,6 +20,7 @@ public class arraystringprog {
 			names[y]=x.next();
 			
 		}
+		System.out.println("the array values are");
 		for(int i=0;i<size;i++)
 		
 		{
