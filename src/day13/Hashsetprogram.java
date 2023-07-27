@@ -18,8 +18,11 @@ public class Hashsetprogram {
       y.add(99);
       y.add(20);
       y.addAll(Arrays.asList(234,89,456,290,345));
+      y.remove(12);
+      y.removeAll(y);
       System.out.println(y);
      System.out.println(y.containsAll(Arrays.asList(45,78,34,0)));
+     
       
       
       TreeSet<Integer> z=new TreeSet<>();
